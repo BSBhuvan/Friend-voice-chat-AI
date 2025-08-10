@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Voice Chat with Friendly AI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Voice Chat with Friendly AI 🤖</h1>
+    <p class="subtitle">Your AI friend who listens and talks!</p>
+
+    <div class="status-area">
+      <p>Status: <span id="statusMessage">Initializing...</span></p>
+    </div>
+
+    <button id="startButton">Start Listening</button>
+
+    <div class="chat-log">
+      <h2>Conversation Log</h2>
+      <div id="output" class="output-log"></div>
+    </div>
+
+    <audio id="audio" controls style="display: none;"></audio>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
