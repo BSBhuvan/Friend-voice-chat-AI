@@ -1,0 +1,45 @@
+Friend Voice Chat AI — Your Friendly Virtual Companion
+
+This project is a simple web app that lets you have a voice conversation with an AI friend. The AI replies are powered by Google’s Gemini language model, and you can optionally have those replies spoken back using OpenAI’s text-to-speech service.
+
+
+
+What It Does
+
+- Listens to your voice through the browser and converts it to text  
+- Sends your words to Google Gemini to generate a smart, friendly reply  
+- Plays the reply out loud using OpenAI’s TTS (optional)  
+- Shows the conversation and status in a clean, user-friendly interface  
+- Runs on a Node.js backend that handles API requests and keeps your keys safe  
+
+
+
+Getting Started
+
+Before You Begin
+
+Make sure you have:  
+- Node.js installed (version 18 or newer recommended)  
+- npm (comes with Node.js)  
+- A Google Gemini API key (from Google Cloud)  
+- (Optional) An OpenAI API key if you want voice playback of responses  
+
+Project Structure
+
+- `public/index.html` — Frontend HTML file  
+- `public/style.css` — Stylesheet  
+- `public/script.js` — Frontend JavaScript  
+- `server.js` — Node.js backend server  
+- `.env` — Environment variables for API keys (keep this private)  
+- `package.json` — Project configuration and dependencies  
+
+---
+
+Additional Information
+
+- Keep your `.env` file safe and never share your API keys publicly  
+- This app requires a modern browser with SpeechRecognition support (Chrome or Edge work best)  
+- Google Gemini and OpenAI services may have usage limits; monitor your API usage accordingly  
+- If you don’t want voice playback, just leave out the OpenAI API key  
+
+
