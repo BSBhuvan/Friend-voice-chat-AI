@@ -33,13 +33,5 @@ Project Structure
 - `.env` — Environment variables for API keys (keep this private)  
 - `package.json` — Project configuration and dependencies  
 
----
-
-Additional Information
-
-- Keep your `.env` file safe and never share your API keys publicly  
-- This app requires a modern browser with SpeechRecognition support (Chrome or Edge work best)  
-- Google Gemini and OpenAI services may have usage limits; monitor your API usage accordingly  
-- If you don’t want voice playback, just leave out the OpenAI API key  
 
 
